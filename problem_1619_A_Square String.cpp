@@ -18,9 +18,10 @@ int main(){
         bool sq(true);
         for(long p = 0; p < h; p++)
         {
-            if(s[p] != s[h + p])
+            if(s[p]!= s[h + p])
             {
-                sq = false; break;
+                sq = false; 
+                break;
             }}
         cout << (sq ? "YES" : "NO") << endl;
     }
