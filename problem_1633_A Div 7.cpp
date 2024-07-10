@@ -2,12 +2,11 @@
 using namespace std;
 int main()
 {
-    int n,v,co=0;
+    int n,v;
+    int co=0;
     cin >>n;
     for(int i=0;i<n;i++)
-    {
-        cin >>v;
-       
+    {   cin >>v;
             if(v%7!=0)
             {
                co=v/7;
